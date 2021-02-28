@@ -1,4 +1,4 @@
-class Solution {
+class No0027 {
     public int removeElement(int[] nums, int val) {
         return v1(nums, val);
     }

@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by baimn on 2021/2/14.
  */
-class No0001TwoSum {
+class No0001 {
     public int[] twoSum(int[] nums, int target) {
         return v2(nums, target);
     }
@@ -35,7 +35,7 @@ class No0001TwoSum {
     //将数组转化为HashMap<value,index>,进而便于直接寻找第二个数字存在与否
     public int[] v2(int[] nums, int target){
         int[] res = new int[2];
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for(int i = 0; i < nums.length; ++i){
             if(map.containsKey(nums[i]) && target%2 == 0 && nums[i] == target/2){
                 res[0] = map.get(nums[i]);
