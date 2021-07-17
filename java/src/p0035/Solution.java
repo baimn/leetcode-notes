@@ -1,4 +1,5 @@
-class No0035 {
+package p0035;
+class Solution {
     public int searchInsert(int[] nums, int target) {
         return v2(nums, target);
     }

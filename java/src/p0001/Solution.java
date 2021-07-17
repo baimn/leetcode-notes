@@ -1,4 +1,4 @@
-//package com.baimn.hello;
+package  p0001;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by baimn on 2021/2/14.
  */
-class No0001 {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         return v2(nums, target);
     }

@@ -1,4 +1,6 @@
-class No0066 {
+package p0066;
+
+class Solution {
     public int[] plusOne(int[] digits) {
         return v1(digits);
     }

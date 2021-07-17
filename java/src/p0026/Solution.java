@@ -1,4 +1,5 @@
-class No0026 {
+package p0026;
+class Solution {
     public int removeDuplicates(int[] nums) {
         return v1(nums);
     }

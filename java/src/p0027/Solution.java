@@ -1,4 +1,6 @@
-class No0027 {
+package p0027;
+
+class Solution {
     public int removeElement(int[] nums, int val) {
         return v1(nums, val);
     }
